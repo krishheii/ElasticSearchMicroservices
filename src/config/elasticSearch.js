@@ -10,8 +10,8 @@ exports.connect = async () => {
   const client = new Client({
     node: 'https://localhost:9200',
     auth: {
-      username: 'elastic',
-      password: '_Y9ac*9M-zfNI8SbNodE',
+      username: 'YOUR-USERNAME',
+      password: 'YOUR-PASSWORD',
     },
     tls: {
       rejectUnauthorized: false,
