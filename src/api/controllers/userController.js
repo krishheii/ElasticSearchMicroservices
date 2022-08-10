@@ -1,5 +1,5 @@
 const httpStatus = require('http-status');
-const User = require('../models/userModel');
+const User = require('../repository/userRepository');
 
 /**
  * Create new user
